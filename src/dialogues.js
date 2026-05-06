@@ -17,14 +17,14 @@ const dialogue = {
     ],
     options: [
       {
-        lebel: "永远永远的永远?",
+        label: "永远永远的永远?",
         key: 1,
-        nextId: "2"
+        nextId: 2
       },
       {
-        lebel: "(简单地保持这种不存在的状态。)",
+        label: "(简单地保持这种不存在的状态。)",
         key: 2,
-        nextId: "2"
+        nextId: 2
       }
     ],
   },
@@ -40,17 +40,17 @@ const dialogue = {
       {
         label: "这真是太棒了!",
         key: 1,
-        nextId: "3"
+        nextId: 3
       },
       {
         label: "再多来一些",
         key: 2,
-        nextId: "3"
+        nextId: 3
       },
       {
         label: "那个*旧*什么的是个什么东西?",
         key: 3,
-        nextId: "3"
+        nextId: 3
       }
     ],
   },

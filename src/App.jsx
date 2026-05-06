@@ -2,7 +2,7 @@ import { useState } from "react";
 import { dialogue } from "./dialogues";
 
 export default function App() {
-  const [dialogueId, setDialogueId] = useState("1");
+  const [dialogueId, setDialogueId] = useState(1);
   const [currentTextId, setCurrentTextId] = useState(0);
 
   return (
